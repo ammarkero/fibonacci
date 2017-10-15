@@ -18,11 +18,11 @@ fibo.php
 ```
 <?php
 
-    $i = 0;
+	$i = 0;
 	$j = 1;
 	$k = 1;
 	$total = 0;
-	
+
 	while($k < 4000000){
 		$i = $j;
 		$j = $k;
@@ -33,7 +33,7 @@ fibo.php
 	}
 
 	echo $total;
-    
+
 ?>
 ```
 
